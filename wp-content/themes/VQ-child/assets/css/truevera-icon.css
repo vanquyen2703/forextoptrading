@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Truevera-icon';
+  src:  url('../fonts/truevera_icon/Truevera-icon.eot?7ptepr');
+  src:  url('../fonts/truevera_icon/Truevera-icon.eot?7ptepr#iefix') format('embedded-opentype'),
+    url('../fonts/truevera_icon/Truevera-icon.ttf?7ptepr') format('truetype'),
+    url('../fonts/truevera_icon/Truevera-icon.woff?7ptepr') format('woff'),
+    url('../fonts/truevera_icon/Truevera-icon.svg?7ptepr#Truevera-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ticon-"], [class*=" ticon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Truevera-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ticon-minus:before {
+  content: "\e90a";
+}
+.ticon-plus:before {
+  content: "\e90b";
+}
+.ticon-Star:before {
+  content: "\e90c";
+}
+.ticon-close:before {
+  content: "\e909";
+}
+.ticon-check:before {
+  content: "\e900";
+}
+.ticon-chevron-down:before {
+  content: "\e901";
+}
+.ticon-chevron-left:before {
+  content: "\e902";
+}
+.ticon-chevron-right:before {
+  content: "\e903";
+}
+.ticon-chevron-up:before {
+  content: "\e904";
+}
+.ticon-longarrow-left:before {
+  content: "\e905";
+}
+.ticon-longarrow-right:before {
+  content: "\e906";
+}
+.ticon-language:before {
+  content: "\e907";
+}
+.ticon-menu:before {
+  content: "\e908";
+}

@@ -1,0 +1,26 @@
+#adminmenu .toplevel_page_zwp-cpanel.wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .toplevel_page_zwp-cpanel .wp-menu-arrow,
+#adminmenu .toplevel_page_zwp-cpanel .wp-menu-arrow div,
+#adminmenu .toplevel_page_zwp-cpanel li.current a.menu-top,
+#adminmenu li.toplevel_page_zwp-cpanel.wp-has-current-submenu a.wp-has-current-submenu,
+.folded #adminmenu .toplevel_page_zwp-cpanel li.current.menu-top,
+.folded #adminmenu li.toplevel_page_zwp-cpanel.wp-has-current-submenu {
+    background-color: #4ba0c9;
+}
+
+#adminmenu .toplevel_page_zwp-cpanel .wp-submenu .wp-submenu-head,
+#adminmenu .toplevel_page_zwp-cpanel div.wp-menu-name,
+#adminmenu .toplevel_page_zwp-cpanel .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+    text-indent: -9999px;
+    background-image: url(../../images/common/logo.png);
+    background-repeat: no-repeat;
+}
+
+#adminmenu .toplevel_page_zwp-cpanel div.wp-menu-name {
+    background-position: center;
+}
+
+#adminmenu .toplevel_page_zwp-cpanel .wp-submenu .wp-submenu-head,
+#adminmenu .toplevel_page_zwp-cpanel.wp-has-current-submenu .wp-submenu .wp-submenu-head {
+    background-position: 10px center;
+}
