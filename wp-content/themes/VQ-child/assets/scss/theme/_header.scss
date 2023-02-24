@@ -1,0 +1,78 @@
+.wp-site-blocks{
+    padding: 0;
+    header{
+        .has-global-padding{
+            padding: 0;
+        }
+        .header-top{
+            padding: 15px 0;
+            .wp-block-group.main-flex{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                >.wp-block-group{
+                    margin-top: 0;
+                    padding: 0;
+                }
+            }
+            .is-layout-constrained{
+                margin: inherit;
+            }
+        }
+        .header-menu{
+            background: #1A7F79;
+            color: #fff;
+            .wp-block-navigation{
+                max-width: 100%;
+                width: 100%;
+                .wp-block-navigation__responsive-container-content{
+                    ul{
+                        li{
+                            position: relative;
+                            display: inline-block;
+                            -moz-transition: all .5s;
+                            -webkit-transition: all .5s;
+                            transition: all .5s;
+                            width: auto;
+                            text-align: center;
+                            a{
+                                padding: 15px 0;
+                                text-decoration: none;
+                                font-weight: 600;
+                                position: relative;
+                                &:hover{
+                                    color: #FF4958;  
+                                } 
+                                &::after{
+                                    background: transparent;
+                                    content: '';
+                                    width: 0;
+                                    height: 3px;
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    margin: 0 auto;
+                                    -webkit-transform: translate3d(0,0,0);
+                                    transform: translate3d(0,0,0);
+                                    -webkit-transition: width 0.2s ease;
+                                    -moz-transition: width 0.2s ease;
+                                    -o-transition: width 0.2s ease;
+                                    transition: width 0.2s ease;
+                                }
+                            }
+                            &:hover{
+                                a{
+                                    &:after{
+                                        background: #ff4958;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
