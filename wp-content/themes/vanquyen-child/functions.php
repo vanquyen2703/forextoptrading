@@ -57,29 +57,9 @@ function vanquyen_child_enqueue_styles() {
         );
     }
 
-    //Archive product
-    if ( is_product_category() || is_shop() || is_product() || is_product_tag()) {
-        wp_enqueue_style(
-            'archive-product',
-            VQ_DIR_ASSETS . '/css/archive-product.min.css',
-            array(),
-            wp_get_theme()->get( 'Version' )
-        );
-    }
 
-    //Single product
-    if ( is_product() || is_checkout() || is_cart()) {
-        wp_enqueue_style(
-            'single-product',
-            VQ_DIR_ASSETS . '/css/single-product.min.css',
-            array(),
-            wp_get_theme()->get( 'Version' )
-        );
-    }
 
-    
-
-    // Truevera icon fonts
+    // Icon fonts
     wp_enqueue_style(
         'VQ-icon-fonts',
         VQ_DIR_ASSETS . '/css/vq-icon.min.css',
@@ -127,7 +107,4 @@ function vanquyen_child_enqueue_styles() {
         $file_types = array_merge($file_types, $new_filetypes );
         return $file_types;
     }
-
-add_action('wp_head', 'VQ_display_head');
-add_action('wp_footer', 'VQ_display_footer');
 add_action('upload_mimes', 'vq_uploads_svg');
