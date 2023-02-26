@@ -1,3 +1,82 @@
 /* ------------------------
     1.2.3 Variable
 -------------------------*/
+.page-template-default .breadcrumbs-section {
+  margin-bottom: 24px; }
+  .page-template-default .breadcrumbs-section .yoast-breadcrumbs span a {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #1a7f79; }
+  .page-template-default .breadcrumbs-section .yoast-breadcrumbs .breadcrumb_last {
+    font-size: 14px;
+    font-weight: 300; }
+.page-template-default .page-information {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #c0c0c0; }
+  .page-template-default .page-information .page-title {
+    font-size: 40px;
+    line-height: 48px;
+    padding: 0 0 16px;
+    font-weight: 700;
+    margin: 0 !important; }
+  .page-template-default .page-information .information-page {
+    display: flex;
+    gap: 24px;
+    align-items: center; }
+    .page-template-default .page-information .information-page .wp-block-post-author {
+      margin: 0 !important; }
+      .page-template-default .page-information .information-page .wp-block-post-author .wp-block-post-author__avatar {
+        display: none; }
+      .page-template-default .page-information .information-page .wp-block-post-author .wp-block-post-author__content p {
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: capitalize; }
+    .page-template-default .page-information .information-page .wp-block-post-date {
+      margin: 0 !important;
+      font-size: 14px; }
+      .page-template-default .page-information .information-page .wp-block-post-date time {
+        font-size: 14px;
+        font-weight: 300; }
+.page-template-default .entry-content figure.wp-block-image {
+  margin: 16px 0 !important; }
+.page-template-default .entry-content h1, .page-template-default .entry-content h2, .page-template-default .entry-content h3, .page-template-default .entry-content h4, .page-template-default .entry-content h5, .page-template-default .entry-content h6 {
+  padding: 16px 0; }
+.page-template-default .entry-content p {
+  padding: 5px 0; }
+.page-template-default .entry-content h2 {
+  font-size: 36px;
+  line-height: 1.2em; }
+  @media (min-width: 1024px) {
+    .page-template-default .entry-content h2 {
+      font-size: 42px; } }
+.page-template-default .entry-content h3 {
+  font-size: 24px;
+  line-height: 1.2em; }
+  @media (min-width: 1024px) {
+    .page-template-default .entry-content h3 {
+      font-size: 36px; } }
+.page-template-default .entry-content h4 {
+  font-size: 20px;
+  line-height: 1.2em; }
+  @media (min-width: 1024px) {
+    .page-template-default .entry-content h4 {
+      font-size: 28px; } }
+.page-template-default .entry-content h5 {
+  font-size: 16px;
+  line-height: 1.2em; }
+  @media (min-width: 1024px) {
+    .page-template-default .entry-content h5 {
+      font-size: 20px; } }
+.page-template-default .entry-content h6 {
+  font-size: 14px;
+  line-height: 1.2em; }
+.page-template-default .entry-content input,
+.page-template-default .entry-content textarea,
+.page-template-default .entry-content select {
+  outline: none;
+  font-family: inherit; }
+.page-template-default .entry-content a {
+  text-decoration: none;
+  font-weight: 600; }
