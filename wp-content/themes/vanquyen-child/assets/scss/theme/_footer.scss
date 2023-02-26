@@ -132,7 +132,17 @@ footer{
                     left: 0;
                 }
             }
+            p{
+                margin-top: 10px;
+            }
+            > ul{
+                padding-left: 16px;
+                @media (min-width:1024px) {
+                    padding-left: 32px;
+                }
+            }
             .menu-footer{
+                margin-top: 10px;
                 ul{
                     display: flex;
                     justify-content: space-between;
@@ -167,6 +177,7 @@ footer{
         }
         .content-ft-bottom{
             font-size: 16px;
+            margin-top: 10px;
         }
     }
 }

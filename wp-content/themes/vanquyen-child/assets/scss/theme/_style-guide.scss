@@ -1,8 +1,7 @@
-@import url('//fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
 
 body {
-	font-family: 'Montserrat', sans-serif !important;
+	font-family: 'Mulish', sans-serif!important;
 	font-weight: 300;
 	color: $grayscale-700;
 	-webkit-touch-callout: none;
@@ -90,6 +89,9 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 	max-width: 100%;
 	margin: auto;
 }
+// body .is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){
+// 	margin: 0!important;
+// }
 body .is-layout-flow > * + * {
 	margin: 0;
 }
@@ -124,6 +126,7 @@ html::-webkit-scrollbar {
 .main-container {
 	max-width: 100% !important;
 	padding: 0 20px !important;
+	margin: 0 auto!important;
 
 	@media (min-width: 768px) {
 		padding: 0 30px !important;
@@ -138,69 +141,5 @@ html::-webkit-scrollbar {
 	@media (min-width: 1440px) {
 		padding: 0 156px!important;
 		max-width: 1320px!important;
-	}
-}
-.main-case {
-	max-width: 100% !important;
-	padding: 0 20px !important;
-
-	@media (min-width: 768px) {
-		padding: 0 30px !important;
-	}
-
-	@media (min-width: 1025px) {
-		padding: 0 40px !important;
-	}
-
-	@media (min-width: 1440px) {
-		padding: 0 252px !important;
-	}
-}
-.main-case-left {
-	max-width: 100% !important;
-	padding: 0 20px 0 20px!important;
-
-	@media (min-width: 768px) {
-		padding: 0 0 0 30px!important;
-	}
-
-	@media (min-width: 1025px) {
-		padding: 0 0 0 40px!important;
-	}
-
-	@media (min-width: 1440px) {
-		padding: 0 0 0 252px!important;
-	}
-}
-.main-case-left1 {
-	max-width: 100% !important;
-	padding: 0 20px 0 20px!important;
-
-	@media (min-width: 768px) {
-		padding: 0 0 0 30px!important;
-	}
-
-	@media (min-width: 1025px) {
-		padding: 0 0 0 40px!important;
-	}
-
-	@media (min-width: 1440px) {
-		padding: 0 0 0 156px!important;
-	}
-}
-.main-case-right {
-	max-width: 100% !important;
-	padding-right: 20px;
-
-	@media (min-width: 768px) {
-		padding-right: 30px;
-	}
-
-	@media (min-width: 1025px) {
-		padding-right: 40px;
-	}
-
-	@media (min-width: 1440px) {
-		padding-right: 156px;
 	}
 }

@@ -2,11 +2,26 @@
     padding: 0;
     header{
         margin-bottom: 16px;
+        background: #1a7f79;
+        position: relative;
+        @media (min-width: 768px) {
+            position: inherit;
+            background: #fff;
+        }
         .has-global-padding{
             padding: 0;
         }
         .header-top{
-            padding: 15px 0;
+            padding: 5px 0;
+            @media (min-width:768px) {
+                padding: 15px 0;
+            }
+            .wp-block-site-logo{
+                width: 64px;
+                @media (min-width:1024px) {
+                        width: 100px;
+                }
+            }
             .wp-block-group.main-flex{
                 display: flex;
                 justify-content: space-between;
@@ -14,6 +29,13 @@
                 >.wp-block-group{
                     margin-top: 0;
                     padding: 0;
+                    &:last-child{
+                        display: none;
+                        @media (min-width:768px) {
+                            display: block;
+                        }
+                    }
+                    
                 }
             }
             .is-layout-constrained{
@@ -23,6 +45,14 @@
         .header-menu{
             background: #1A7F79;
             color: #fff;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            @media (min-width:768px) {
+                position: inherit;
+                transform: translateY(0);
+            }
             .wp-block-navigation{
                 max-width: 100%;
                 width: 100%;

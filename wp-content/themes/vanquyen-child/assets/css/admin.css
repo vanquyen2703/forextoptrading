@@ -1,2 +1,17 @@
 .wp-admin .plugins #translatepress-multilingual-update, .wp-admin .plugins #translatepress-extra-languages-add-on-update {
   display: none; }
+.wp-admin .main-container {
+  max-width: 100% !important;
+  padding: 0 20px !important; }
+  @media (min-width: 768px) {
+    .wp-admin .main-container {
+      padding: 0 30px !important;
+      max-width: 720px !important; } }
+  @media (min-width: 1025px) {
+    .wp-admin .main-container {
+      padding: 0 40px !important;
+      max-width: 1140px !important; } }
+  @media (min-width: 1440px) {
+    .wp-admin .main-container {
+      padding: 0 156px !important;
+      max-width: 1320px !important; } }

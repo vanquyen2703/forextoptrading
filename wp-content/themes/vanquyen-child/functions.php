@@ -51,7 +51,7 @@ function vanquyen_child_enqueue_styles() {
     if (!is_front_page() || is_search()) {
         wp_enqueue_style(
             'orther-page',
-            VQ_DIR_ASSETS . '/css/orther-page.min.css',
+            VQ_DIR_ASSETS . '/css/other-page.min.css',
             array(),
             wp_get_theme()->get( 'Version' )
         );
@@ -90,13 +90,16 @@ function vanquyen_child_enqueue_styles() {
     wp_enqueue_script('lazyload', VQ_DIR_ASSETS .'/js/lazyload.min.js');
     // Slick
     wp_enqueue_script('slick', VQ_DIR_ASSETS .'/js/slick.min.js');
-      
-
-
-    // muayensao js
+    // vanquyen js
     wp_enqueue_script('VQ-js', VQ_DIR_ASSETS .'/js/theme-function.min.js');
 
 }
+
+// Update CSS within in Admin
+function admin_style() {
+    wp_enqueue_style('admin-styles', VQ_DIR_ASSETS .'/css/admin.min.css');
+}
+add_action('admin_enqueue_scripts', 'admin_style');
 
 
     // Add SVG to allowed file uploads
