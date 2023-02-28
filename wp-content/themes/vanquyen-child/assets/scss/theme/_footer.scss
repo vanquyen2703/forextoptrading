@@ -1,5 +1,5 @@
 footer{
-    background: #1A7F79;
+    background: #1c9514;
     color: #fff;
     position: relative;
     margin-top: 100px!important;
@@ -21,7 +21,7 @@ footer{
         align-items: center;
         display: flex;
         top: -64px;
-        background: #00ccc0;
+        background: #bb9957;
         border-radius: 20px;
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -82,7 +82,7 @@ footer{
                         border-radius: 6px;
                         cursor: pointer;
                         &:hover{
-                            background-color: #1A7F79;
+                            background-color: #1c9514;
                             color: #fff;
                         }
                     }
@@ -167,7 +167,7 @@ footer{
         max-width: 100%;
         width: 100%;
         margin: inherit;
-        border-top: 2px solid #73F2EB;
+        border-top: 2px solid #e1e1e1;
         margin-top: 24px;
         padding-top: 24px;
         .heading-ft-bottom{
