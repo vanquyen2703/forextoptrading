@@ -2,7 +2,7 @@
     padding: 0;
     header{
         margin-bottom: 16px;
-        background: #1a7f79;
+        background: #1c9514;
         position: relative;
         @media (min-width: 768px) {
             position: inherit;
@@ -15,6 +15,19 @@
             padding: 5px 0;
             @media (min-width:768px) {
                 padding: 15px 0;
+            }
+            .menu-mobile{
+                margin: 0!important;
+                .wp-block-navigation{
+                    color: #fff;
+                }
+                @media (min-width:768px) {
+                   display: none;
+                 }
+                 .wp-block-navigation__responsive-container.is-menu-open {
+                    background-color: #1c9514;
+                    color: #fff;
+                }
             }
             .wp-block-site-logo{
                 width: 64px;
@@ -43,15 +56,17 @@
             }
         }
         .header-menu{
-            background: #1A7F79;
+            background: #1c9514;
             color: #fff;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
             z-index: 10;
+            display: none;
             @media (min-width:768px) {
                 position: inherit;
                 transform: translateY(0);
+                display: block;
             }
             .wp-block-navigation{
                 max-width: 100%;
